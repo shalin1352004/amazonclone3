@@ -181,9 +181,10 @@ span{
 }
 .box{
     height: 400px;
-    width:22%;
+    width:22rem;
     background-color: white;
     margin-top: 10px;
+    background-size: auto;
     
 }
 .shop-section1{
@@ -247,7 +248,7 @@ span{
 .box-img7{
     background-image: url(images/Appliances1.webp);
     height: 300px;
-    width: 300px;
+    width: 20rem;
     background-size: cover  ;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -255,10 +256,11 @@ span{
 .box-img8{
     background-image: url(images/box6_image.jpg);
     height: 300px;
-    width: 300px;
+    width: 20rem;
     background-size: cover  ;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 .box-content{
     margin-left: 10px;
