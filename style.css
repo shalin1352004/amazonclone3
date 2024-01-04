@@ -10,8 +10,7 @@
     width: 100%;
     background-color: #010f08;
     color:white;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex:
     align-items: center;
     justify-content: space-evenly;
 
@@ -118,7 +117,6 @@ span{
     background-color: rgb(0, 32, 2);
     height: 30px;
     display: flex;
-    flex-wrap: wrap;
     color: white;
     align-items: center;   
     justify-content: space-evenly;
