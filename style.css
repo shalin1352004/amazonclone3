@@ -1,3 +1,7 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
 *{
     margin: 0%;
     font-family: Arial;
@@ -7,10 +11,10 @@
 
 .navbar{
     height: 10%;
-    width: 100%;
+    width: auto;
     background-color: #010f08;
     color:white;
-    display: flex:
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 
@@ -120,6 +124,7 @@ span{
     color: white;
     align-items: center;   
     justify-content: space-evenly;
+    width: 100%;
 }
 .border:hover{
     cursor: pointer 
@@ -152,7 +157,7 @@ span{
     height: 30px;
     font-size: 15px;
     font-weight: 700;   
-    display: inline;
+    display: flex;
     align-items: center;
     text-align: center;
 
@@ -261,4 +266,74 @@ span{
 .box-content{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/** Footer **/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #022d17;
+    color: white;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    display: flex;
+
+}
+.foot-panel2{
+    background-color: #010f08;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+    
+}
+ul p{
+    margin-bottom: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #010f08;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    background-image: url("images\\amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+    
+    
+}
+.foot-panel4{
+    background-color: #022d17;
+    color: white;
+    height: 76px;
+}
+.pages{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    margin: 5px;
+    font-size: 0.75rem;
+    text-align: center;
 }
