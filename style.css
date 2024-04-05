@@ -18,6 +18,9 @@ html,body{
     justify-content: space-evenly;
 
 }
+.navbar:hover{
+    border: 2px solid black;
+}
 
 .nav-logo{
     margin-left: 0%;
